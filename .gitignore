@@ -1,0 +1,88 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Python Build Files
+# ===========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Testing
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# Streamlit
+# ===========================
+.streamlit/secrets.toml
+
+# ===========================
+# RAG Generated Files
+# ===========================
+jsons/
+videos/
+audios/
+transcript.txt
+*.webm
+*.mp3
+*.wav
+
+# Embeddings & Vector Database
+*.pkl
+*.faiss
+chroma_db/
+chromadb/
+vector_db/
+
+# ===========================
+# Temporary Files
+# ===========================
+temp/
+tmp/
+*.tmp
+
+# ===========================
+# IDE Files
+# ===========================
+.idea/
