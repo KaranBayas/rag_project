@@ -1,10 +1,10 @@
-🎓 AI Lecture Assistant - RAG Chatbot
+# AI Lecture Assistant - RAG Chatbot
 
 Ask questions about AI/ML lectures and instantly get accurate answers with the exact video and timestamp where the topic is taught.
 
 ⸻
 
-🚀 Overview
+## Overview
 
 Learning from long lecture videos can be time-consuming. Finding where a specific concept is explained often requires manually searching through hours of content.
 
@@ -19,7 +19,7 @@ Users can ask questions in natural language, and the system:
 
 ⸻
 
-✨ Features
+## Features
 
 * 🎤 Speech-to-Text using OpenAI Whisper
 * ✂️ Automatic transcript chunking
@@ -32,7 +32,7 @@ Users can ask questions in natural language, and the system:
 
 ⸻
 
-🏗️ System Architecture
+## System Architecture
 
                 YouTube Videos
                         │
@@ -75,7 +75,7 @@ Users can ask questions in natural language, and the system:
 
 ⸻
 
-🛠️ Tech Stack
+## Tech Stack
 
 Component	Technology
 Language	Python
@@ -89,7 +89,7 @@ IDE	VS Code
 
 ⸻
 
-📂 Project Structure
+## Project Structure
 
 RAG_Project/
 │
@@ -112,7 +112,7 @@ RAG_Project/
 
 ⸻
 
-⚙️ How It Works
+## How It Works
 
 1. Download Lecture Videos
 
@@ -178,7 +178,7 @@ Return:
 
 ⸻
 
-📸 Example
+ Example
 
 User Question
 
@@ -194,7 +194,7 @@ Timestamp:
 
 ⸻
 
-🚀 Installation
+## Installation
 
 git clone <repository-url>
 cd RAG_Project
@@ -204,7 +204,7 @@ pip install -r requirements.txt
 
 ⸻
 
-🔑 Environment Variables
+## Environment Variables
 
 Create a .env file:
 
@@ -212,13 +212,13 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
 ⸻
 
-▶️ Run
+## Run
 
 python main.py
 
 ⸻
 
-🎯 Future Improvements
+## Future Improvements
 
 * Streamlit Web UI
 * Chat History
@@ -233,7 +233,7 @@ python main.py
 
 ⸻
 
-📈 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates practical experience with:
 
