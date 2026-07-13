@@ -333,7 +333,6 @@ What is a Multi Layer Perceptron?
 | Parameter | Current Value | Source | Notes |
 | --- | --- | --- | --- |
 | Chunk Size | `group_size = 5` transcript segments | `merge_chunks.py` | Merges neighboring transcript blocks |
-|
 | Embedding Dimension | `768` | `faiss_utils.py` | Used for the FAISS index |
 | FAISS Index | `IndexFlatL2` | `faiss_utils.py` | Exact search baseline |
 | Embedding Model | `nomic-embed-text` | `embedding.py` | Served via Ollama |
