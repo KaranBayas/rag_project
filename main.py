@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     new_df = cosine_similar_vectors(question_embedding)
     # print(new_df)
-    prompt = create_prompt(question,new_df,10)
+    prompt = create_prompt(question,new_df)
     
     response = generate_response(prompt)
     
