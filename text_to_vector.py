@@ -12,7 +12,7 @@ for json_file in jsons:
     with open(f"jsons/{json_file}") as f:
         content = json.load(f)
     print(f"Creating Embeddings for {json_file}")
-    batch_size = 500
+    batch_size = 100
     embeddings = []
     count=0
     for i in range(0, len(content["chunks"]), batch_size):
